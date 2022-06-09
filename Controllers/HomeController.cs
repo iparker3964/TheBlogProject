@@ -32,7 +32,7 @@ namespace TheBlogProject.Controllers
         public IActionResult Contact()
         {
             return View();
-        }
+        }    
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Contact(ContactMe model)

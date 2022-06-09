@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1aL1EPVDMr38ZzsudxvC6HOO8nWM4QdJ3eMwdHLi4tZ3KAJ8jjl80pS+WrExiYbC/uFpGOsZOu0aa6cANerfDQ==",
+  "dgSpecHash": "nGEM0C4zHNcrwKwFfFK3Qx5yaJSDrzAq+Uvd3/aeapU69gIW8RAjrfxCIIqWl1Iebv/B+vRi6apykd5uas2/1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\iparker\\source\\repos\\TheBlogProject\\TheBlogProject.csproj",
+  "projectFilePath": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\TheBlogProject\\TheBlogProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iparker\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\iparker\\.nuget\\packages\\jquery\\3.6.0\\jquery.3.6.0.nupkg.sha512",
     "C:\\Users\\iparker\\.nuget\\packages\\mailkit\\3.2.0\\mailkit.3.2.0.nupkg.sha512",
     "C:\\Users\\iparker\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.12\\microsoft.aspnetcore.cryptography.internal.5.0.12.nupkg.sha512",
     "C:\\Users\\iparker\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.12\\microsoft.aspnetcore.cryptography.keyderivation.5.0.12.nupkg.sha512",
