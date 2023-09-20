@@ -87,9 +87,11 @@ namespace TheBlogProject.Controllers
                 comment.BlogUserId = _userManager.GetUserId(User);
                 comment.Created = DateTime.Now;
                 //var newComment = await _context.Comments.Include(x => x.Post).FirstOrDefaultAsync(x => x.Id == comment.Id);
-                var post = await _context.Comments.Include(x => x.Post).FirstOrDefaultAsync(x => x.Post.Id == PostId);
+                
                 _context.Add(comment);
                 await _context.SaveChangesAsync();
+
+                var post = await _context.Comments.Include(x => x.Post).FirstOrDefaultAsync(x => x.Post.Id == PostId);
                 //return RedirectToAction(nameof(Index));
                 return RedirectToAction("Details", "Posts", new { slug = post.Post.Slug}, "commentSection");
             }
