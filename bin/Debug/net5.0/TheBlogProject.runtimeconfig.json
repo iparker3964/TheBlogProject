@@ -7,6 +7,7 @@
     },
     "configProperties": {
       "System.GC.Server": true,
+      "System.Globalization.Invariant": true,
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false
     }
   }
