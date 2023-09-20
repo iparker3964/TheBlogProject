@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\assets\\img\\about-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\assets\\img\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\contact-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\assets\\img\\home-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\home-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\assets\\img\\post-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\post-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\assets\\img\\post-sample-image.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\post-sample-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\images\\dataStructure.jpg",
+      "PackagePath": "staticwebassets\\images\\dataStructure.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\images\\defaultUser.jpg",
+      "PackagePath": "staticwebassets\\images\\defaultUser.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\images\\oops.jpg",
+      "PackagePath": "staticwebassets\\images\\oops.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\images\\softwareDeveloper.jpg",
+      "PackagePath": "staticwebassets\\images\\softwareDeveloper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\images\\tag.png",
+      "PackagePath": "staticwebassets\\images\\tag.png"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\images\\tipInterview.png",
+      "PackagePath": "staticwebassets\\images\\tipInterview.png"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\js\\Custom.js",
+      "PackagePath": "staticwebassets\\js\\Custom.js"
+    },
+    {
+      "Id": "C:\\Users\\iparker\\Documents\\Code\\TheBlogProject\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TheBlogProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TheBlogProject.props",
+      "PackagePath": "build\\TheBlogProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TheBlogProject.props",
+      "PackagePath": "buildMultiTargeting\\TheBlogProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TheBlogProject.props",
+      "PackagePath": "buildTransitive\\TheBlogProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
