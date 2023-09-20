@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net6.0": {
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -3337,10 +3337,10 @@
           "JetBrains.Annotations": "2022.3.1"
         },
         "compile": {
-          "lib/net7.0/X.PagedList.dll": {}
+          "lib/net6.0/X.PagedList.dll": {}
         },
         "runtime": {
-          "lib/net7.0/X.PagedList.dll": {}
+          "lib/net6.0/X.PagedList.dll": {}
         }
       },
       "X.PagedList.Mvc.Core/8.0.7": {
@@ -10448,7 +10448,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net6.0": [
       "MailKit >= 3.2.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.14",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.12",
@@ -10493,15 +10493,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -10512,8 +10512,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "MailKit": {
             "target": "Package",
