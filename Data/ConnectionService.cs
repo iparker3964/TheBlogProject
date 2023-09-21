@@ -28,7 +28,7 @@ namespace TheBlogProject.Data
                 Username = userInfo[0],
                 Password = userInfo[1],
                 Database = databaseUri.LocalPath.TrimStart('/'),
-                SslMode = SslMode.Prefer,
+                SslMode = SslMode.Require,
                 TrustServerCertificate = true
             }.ToString();
         }
