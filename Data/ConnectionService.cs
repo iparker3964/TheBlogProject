@@ -23,14 +23,24 @@ namespace TheBlogProject.Data
 
             return new NpgsqlConnectionStringBuilder()
             {
-                Host = databaseUri.Host,
-                Port = databaseUri.Port,
-                Username = userInfo[0],
-                Password = userInfo[1],
-                Database = databaseUri.LocalPath.TrimStart('/'),
+                Host = "containers-us-west-164.railway.app",
+                Port = 7070,
+                Username = "postgres",
+                Password = "ry3HdoTd2q4InR9BWXF5",
+                Database = "railway",
                 SslMode = SslMode.Require,
                 TrustServerCertificate = true
             }.ToString();
+            //return new NpgsqlConnectionStringBuilder()
+            //{
+            //    Host = databaseUri.Host,
+            //    Port = databaseUri.Port,
+            //    Username = userInfo[0],
+            //    Password = userInfo[1],
+            //    Database = databaseUri.LocalPath.TrimStart('/'),
+            //    SslMode = SslMode.Require,
+            //    TrustServerCertificate = true
+            //}.ToString();
         }
     }
 }
