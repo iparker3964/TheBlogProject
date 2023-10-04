@@ -13,7 +13,7 @@ namespace TheBlogProject.Data
         {
             var connectionString = config.GetConnectionString("DefaultConnection");
             var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
-
+            Console.WriteLine(databaseUrl);
             return string.IsNullOrEmpty(databaseUrl) ? connectionString : BuildConnectionString(databaseUrl);
         }
         private static string BuildConnectionString(string databaseUrl)
