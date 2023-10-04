@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TheBlogProject.Data
 {
-    public static class ConnectionService
+    public class ConnectionService
     {
         public static string GetConnectionString(IConfiguration config)
         {
