@@ -16,7 +16,7 @@ namespace TheBlogProject.Services
 
         public string DecodeImage(byte[] data, string type)
         {
-            if (data is null || type is null)
+            if (data == null || type == null)
             {
                 return null;
             }
@@ -26,7 +26,7 @@ namespace TheBlogProject.Services
 
         public async Task<byte[]> EncodeImageAsync(IFormFile file)
         {
-            if (file is null)
+            if (file == null)
             {
                 return null;
             }

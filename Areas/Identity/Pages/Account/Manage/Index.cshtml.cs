@@ -96,7 +96,7 @@ namespace TheBlogProject.Areas.Identity.Pages.Account.Manage
                 }
             }
             //If and only if the user selected a new image will I update their profile
-            if (Input.Image is not null)
+            if (Input.Image != null)
             {
                 user.ImageData = await _imageService.EncodeImageAsync(Input.Image);
 

@@ -136,7 +136,7 @@ namespace TheBlogProject.Controllers
                         newBlog.Description = blog.Description;
                     }
 
-                    if (newImage is not null)
+                    if (newImage != null)
                     {
                         newBlog.ImageData = await _imageService.EncodeImageAsync(newImage);
                     }

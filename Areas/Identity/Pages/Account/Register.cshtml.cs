@@ -101,7 +101,7 @@ namespace TheBlogProject.Areas.Identity.Pages.Account
                     UserName = Input.Email,
                     Email = Input.Email,
                     ImageData = (await _imageService.EncodeImageAsync(Input.ImageFile) ?? await _imageService.EncodeImageAsync(_config["DefaultUserImage"])),
-                    ContentType = Input.ImageFile is null ? Path.GetExtension(_config["DefaultUserImage"]) : _imageService.ContentType(Input.ImageFile)
+                    ContentType = Input.ImageFile == null ? Path.GetExtension(_config["DefaultUserImage"]) : _imageService.ContentType(Input.ImageFile)
                 };
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)

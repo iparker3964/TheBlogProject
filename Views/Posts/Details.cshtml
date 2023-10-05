@@ -79,13 +79,13 @@
             <h4>@comment.BlogUser.FullName</h4>
             <small>
                  <i>
-                    @if (comment.Deleted is not null)
+                    @if (comment.Deleted != null)
                     {
                         <span class="small">
                             <span class="font-weight-bolder">Deleted</span> : @comment.Deleted?.ToString("MMM dd, yyyy")
                         </span>
                     }
-                    else if (comment.Moderated is not null)
+                    else if (comment.Moderated != null)
                     {
                         <span class="small">
                             <span class="font-weight-bolder">
@@ -94,7 +94,7 @@
                             : @comment.Moderated?.ToString("MMM dd, yyyy")
                         </span>
                     }
-                    else if (comment.Updated is not null)
+                    else if (comment.Updated != null)
                     {
                         <span class="small">
                             <span class="font-weight-bolder">Updated</span> : @comment.Updated?.ToString("MMM dd, yyyy")
@@ -108,10 +108,10 @@
                  </i>
             </small>
             <br />
-            @if (comment.Deleted is not null) { 
+            @if (comment.Deleted != null) { 
                 <span class="small font-italic">The comment posted on @comment.Created.ToString("MMM dd, yyyy") by @comment.BlogUser.FullName was deleted by Moderator...</span>
             }
-            else if (comment.Moderated is not null)
+            else if (comment.Moderated != null)
             {
                 <span class="small font-italic">The comment posted on @comment.Created.ToString("MMM dd, yyyy") by @comment.BlogUser.FullName has been Moderated...</span>
             }
@@ -119,16 +119,16 @@
             @if (string.IsNullOrEmpty(comment.Body)) {
                 <span class="small font-italic">Comment not available...</span>
             }
-            else if(comment.Moderated is not null)
+            else if(comment.Moderated != null)
             {
                 <p>@comment.ModeratedBody</p>
             }
-            else if(comment.Deleted is null)
+            else if(comment.Deleted == null)
             {
                 <p>@comment.Body</p>
             }
             
-            @if(comment.Moderated is null && comment.Deleted is null && comment.BlogUserId == userManager.GetUserId(User)) { 
+            @if(comment.Moderated == null && comment.Deleted == null && comment.BlogUserId == userManager.GetUserId(User)) { 
                 <hr />
                 <button data-bs-toggle="modal" data-bs-target="#editModal" class="btn-sm btn-dark float-end font-weight-bold">EDIT</button>
             }
@@ -136,7 +136,7 @@
 
 
            @*Render the moderate and delete buttons*@
-           @if(User.IsInRole(BlogRole.Moderator.ToString()) && comment.Deleted is null) {
+           @if(User.IsInRole(BlogRole.Moderator.ToString()) && comment.Deleted == null) {
                <hr />
                <div class="row">
                    <div class="col-2">

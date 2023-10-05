@@ -55,7 +55,7 @@ namespace TheBlogProject.Controllers
         //BlogPostIndex
         public async Task<IActionResult> BlogPostIndex(int? id, int? page)
         {
-            if (id is null)
+            if (id == null)
             {
                 return NotFound();
             }
@@ -264,7 +264,7 @@ namespace TheBlogProject.Controllers
                         }
                     }
 
-                    if (newImage is not null)
+                    if (newImage != null)
                     {
                         newPost.ImageDate = await _imageService.EncodeImageAsync(newImage);
                         newPost.ContentType = _imageService.ContentType(newImage);
